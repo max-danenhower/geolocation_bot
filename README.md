@@ -1,1 +1,8 @@
 Python notebooks to embed street view images with StreetCLIP and use those embeddings to predict the geolocation of street view images. 
+
+KNN and MLP models require StreetCLIP image embeddings to be generated before hand (see generate_streetCLIP_embeddings.ipynb). 
+
+The training dataset is from Kaggle: https://www.kaggle.com/datasets/ayuseless/streetview-image-dataset
+coordinates.csv has indexes that correspond to the kaggle Streetview_Images_Dataset folder (ie 0.png corresponds to the 0th row in coordinates.csv)
+The dataset used for testing the models is from HuggingFace: https://huggingface.co/datasets/stochastic/random_streetview_images_pano_v0.0.2
+
